@@ -1,10 +1,7 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
 </style>* {
      padding: 0;
      margin: 0;
      box-sizing: border-box;
-
 }
 
 /*Main style area*/
@@ -19,6 +16,7 @@ main {
      margin: 0 auto;
 }
 
+
 /*Header Area strat*/
 .nav-area {
      display: flex;
@@ -29,7 +27,6 @@ main {
 
 nav ul {
      display: flex;
-
 }
 
 ul li {
@@ -37,7 +34,8 @@ ul li {
      padding: 0 30px;
 }
 
-/*Header Area End*/
+
+/*Banner Area style*/
 .first-section-banner-area {
      text-align: center;
      margin: 0 auto;
@@ -75,4 +73,131 @@ ul li {
      width: 1440px;
      height: 700px;
      border-radius: 10px;
+     margin-bottom: 100px;
+}
+
+/*list Area style*/
+.second-section-list-area {
+     display: flex;
+     /* height: 1000px; */
+     border: 1px solid red;
+
+
+
+}
+
+.list-images {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 24px;
+     margin-left: 80px;
+}
+
+.list-image img {
+     width: 340px;
+     height: 340px;
+}
+
+.discription-area {
+     margin-left: 70px;
+     margin-top: 200px;
+}
+
+
+
+/* features Area Style */
+.third-section-features-area {
+     margin-top: 130px;
+     border: 1px solid red;
+     display: flex;
+     flex-direction: column;
+}
+
+.features-info-area {
+     display: flex;
+     margin: 0 auto;
+}
+
+.features-discription-area {
+     width: 686px;
+     height: 982px;
+}
+
+.features-discription-area-one {
+     margin-bottom: 60px;
+}
+
+.third-section-title {
+     font-weight: 700;
+     font-weight: bold;
+     font-size: 45px;
+     color: #131313;
+}
+
+.third-section-title-2 {
+     font-weight: 600;
+     font-weight: bold;
+     font-size: 20px;
+     color: #131313;
+}
+
+.features-images {
+     margin-left: 55px;
+     width: 780px;
+     height: 1059px;
+     border-radius: 8px;
+}
+
+.features-btn {
+     width: 342px;
+     height: 200px;
+     border-radius: 8px;
+     background-color: #FF900E;
+     border: none;
+     margin-left: 40%;
+}
+
+.button-title {
+     font-size: 60px;
+     color: #FFFFFF;
+
+}
+
+.button-title span {
+     font-weight: 300;
+     font-size: 25px;
+     color: #FFFFFF;
+
+}
+
+
+/* Fact Area Style*/
+.fourth-section-fact-area {
+     margin-top: 130px;
+
+}
+
+.fact-area-title {
+     font-weight: 700;
+     font-size: 45px;
+     color: #131313;
+     margin: 0;
+}
+
+.fact-box-area {
+     display: flex;
+     justify-content: space-around;
+}
+
+.fact-box {
+     width: 242px;
+     height: 242px;
+     border-radius: 8px;
+     border: 1px solid #FF900E;
+
+}
+
+.fact-box img {
+     margin: 0 auto;
+
 }
