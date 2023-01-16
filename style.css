@@ -24,7 +24,8 @@ main {
      width: 1440px;
      margin: 0 auto;
 }
-.nav-title{
+
+.nav-title {
      text-transform: uppercase;
      font-size: 30px;
      font-weight: 700;
@@ -160,11 +161,13 @@ ul li {
      border-left: 10px solid#FF900E;
      padding-left: 15px;
 }
-.features-discreption{
+
+.features-discreption {
      font-size: 25px;
      margin: 10px 0px;
 
 }
+
 .third-section-title-2 {
      font-weight: 600;
      font-weight: bold;
@@ -318,6 +321,11 @@ ul li {
      align-items: center;
 }
 
+.team-designation {
+     font-weight: bold;
+     margin-bottom: 10px;
+}
+
 .team-box img {
      width: 200px;
      height: 250px;
@@ -351,4 +359,194 @@ footer {
      font-weight: 400;
      font-size: 25px;
      color: #424242;
+}
+
+
+
+
+
+
+
+/*Style for Mobile and Small Device*/
+@media screen and (max-width: 576px) {
+
+     /* Header Area style*/
+     .nav-area {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     ul li {
+          padding: 10px 0;
+     }
+
+     /* First Area style*/
+
+     .first-section-banner-area {
+          text-align: center;
+          margin: 0 auto;
+     }
+
+     .first-section-title {
+          margin-top: 25px;
+          font-weight: 700;
+          font-weight: bold;
+          font-size: 30px;
+     }
+
+     .baneer-discreption {
+          font-style: normal;
+          font-weight: 400;
+          padding: 0px 300px;
+          font-size: 14px;
+          color: #727272;
+     }
+
+     .banner-image {
+          width: 25%;
+          height: 25%;
+          margin: auto;
+     }
+
+     /*Second section style*/
+     .second-section-list-area {
+          margin-top: 80px;
+          display: flex;
+          /* flex-direction: column; */
+          flex-direction: column-reverse;
+          margin: auto;
+
+     }
+
+     .list-images {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 24px;
+          margin: auto;
+          z-index: 1;
+     }
+
+     .list-image img {
+          width: 340px;
+          height: 340px;
+     }
+
+     .discription-area {
+          text-align: center;
+          margin: auto;
+          z-index: 2;
+     }
+
+
+     /*Third section Area style */
+     .third-section-features-area {
+          margin-top: 100px;
+     }
+     .features-info-area {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+     }
+     .features-discription-area-one {
+          margin-bottom: 60px;
+          margin: 70px 100px;
+          text-align: center;
+     }
+     .features-images {
+          margin-top: 70px;
+     }
+     .features-images img {
+          width: 60%;
+          height: 60%;
+          margin-left: 55px;
+          border-radius: 8px;
+     }
+
+     .features-btn-area{
+          margin-top: 1700px;
+          margin-left: 25%;
+     }
+     .features-btn {
+          width: 342px;
+          height: 200px;
+          border-radius: 8px;
+          background-color: #FF900E;
+          border: none;
+     }
+
+     /*Fourth Section Area Style*/
+     .fourth-section-fact-area {
+          margin-top: 10px;
+
+     }  
+     .fact-area-title{
+          text-align: center;    
+     }
+     .fact-discription-title{
+          padding: 0 500px;
+          text-align: center;
+     }
+     .fact-box-area {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }    
+
+/*Fifth section Area Style*/
+.fifth-section-sponspor-area {
+     margin-top: 180px;
+}
+
+.fact-box-area img{
+     margin: 30px 0px;
+}
+.fifth-section-discription{
+     padding: 0 300px;
+}
+
+/*Sixth Section Area Style*/ 
+.sixth-section-team-area {
+     margin-top: 10px;
+
+}
+
+.sixth-section-discription {
+     padding: 0 350px;
+
+}
+
+.team-box-area {
+     margin-top: 100px;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 20px;
+
+}
+
+.team-box {
+     padding: 300px 0px;
+     margin: auto;
+     display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.team-box-title-area{
+     text-align: center;
+     padding: 0 350px;    
+}
+
+.footer-discription {
+     text-align: center;
+     padding: 0 450px;       
+}
+
 }
