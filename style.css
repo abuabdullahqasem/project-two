@@ -1,4 +1,4 @@
-</style>* {
+* {
      padding: 0;
      margin: 0;
      box-sizing: border-box;
@@ -6,9 +6,9 @@
 
 /*Main style area*/
 body {
+     margin-top: 30px;
      font-family: 'Work Sans', sans-serif;
      width: 1920px;
-     background: rgba(255, 144, 14, 0.1);
 }
 
 main {
@@ -16,13 +16,20 @@ main {
      margin: 0 auto;
 }
 
-
 /*Header Area strat*/
 .nav-area {
+     background: ;
      display: flex;
      justify-content: space-between;
      width: 1440px;
      margin: 0 auto;
+}
+.nav-title{
+     text-transform: uppercase;
+     font-size: 30px;
+     font-weight: 700;
+     font-weight: bold;
+
 }
 
 nav ul {
@@ -30,12 +37,15 @@ nav ul {
 }
 
 ul li {
+     text-transform: uppercase;
+     font-size: 25px;
+     font-weight: 500;
+     font-weight: bold;
      list-style-type: none;
      padding: 0 30px;
 }
 
-
-/*Banner Area style*/
+/*First Section: Banner Area style*/
 .first-section-banner-area {
      text-align: center;
      margin: 0 auto;
@@ -76,14 +86,28 @@ ul li {
      margin-bottom: 100px;
 }
 
-/*list Area style*/
+
+/*Second Section: list Area style*/
 .second-section-list-area {
+     background: #FFFFFF;
      display: flex;
-     /* height: 1000px; */
-     border: 1px solid red;
 
+}
 
+.second-section-title {
+     color: #727272;
+     font-weight: 500;
+     font-weight: bold;
+     font-size: 45px;
 
+}
+
+.second-section-title .dis-of-our {
+     color: #131313;
+}
+
+.second-section-title .dis-features {
+     color: #FF900E;
 }
 
 .list-images {
@@ -101,16 +125,17 @@ ul li {
 .discription-area {
      margin-left: 70px;
      margin-top: 200px;
+     padding: 20px;
+     text-align: justify;
 }
 
 
-
-/* features Area Style */
+/* Third Section: features Area Style */
 .third-section-features-area {
      margin-top: 130px;
-     border: 1px solid red;
      display: flex;
      flex-direction: column;
+     position: relative;
 }
 
 .features-info-area {
@@ -132,12 +157,18 @@ ul li {
      font-weight: bold;
      font-size: 45px;
      color: #131313;
+     border-left: 10px solid#FF900E;
+     padding-left: 15px;
 }
+.features-discreption{
+     font-size: 25px;
+     margin: 10px 0px;
 
+}
 .third-section-title-2 {
      font-weight: 600;
      font-weight: bold;
-     font-size: 20px;
+     font-size: 30px;
      color: #131313;
 }
 
@@ -146,6 +177,12 @@ ul li {
      width: 780px;
      height: 1059px;
      border-radius: 8px;
+}
+
+.features-btn-area {
+     position: absolute;
+     margin-left: 30%;
+     margin-top: 750px;
 }
 
 .features-btn {
@@ -160,21 +197,17 @@ ul li {
 .button-title {
      font-size: 60px;
      color: #FFFFFF;
-
 }
 
 .button-title span {
      font-weight: 300;
      font-size: 25px;
      color: #FFFFFF;
-
 }
 
-
-/* Fact Area Style*/
+/* Fourth Section: Fact Area Style*/
 .fourth-section-fact-area {
      margin-top: 130px;
-
 }
 
 .fact-area-title {
@@ -190,14 +223,132 @@ ul li {
 }
 
 .fact-box {
+     margin-top: 50px;
      width: 242px;
      height: 242px;
      border-radius: 8px;
-     border: 1px solid #FF900E;
+     border: 2px solid #FF900E;
+     text-align: center;
+}
 
+.fact-box:hover {
+     width: 242px;
+     height: 242px;
+     border-radius: 8px;
+     background-color: #ff8f0ea4;
+     text-align: center;
+}
+
+.box-title {
+     font-weight: 600;
+     font-size: 45px;
+     color: #424242;
+     margin: 0;
+}
+
+.box-discription {
+     margin: 0
 }
 
 .fact-box img {
-     margin: 0 auto;
+     width: 45px;
+     height: 45px;
+     margin-top: 65px;
+}
 
+/* Fifth Section: Sponsore Secton area style */
+.fifth-section-sponspor-area {
+     margin-top: 180px;
+}
+
+.fifth-siction-title {
+     margin-bottom: 30px;
+     text-align: center;
+     font-weight: 700;
+     font-size: 55px;
+     font-weight: bold;
+     color: #131313;
+}
+
+.fifth-section-discription {
+     text-align: center;
+     font-weight: 400;
+     font-size: 25px;
+     color: #727272;
+     margin-bottom: 50px;
+}
+
+/* sixth Section: Team Area*/
+.sixth-section-team-area {
+     margin-top: 150px;
+
+}
+
+.sixth-siction-title {
+     text-align: center;
+     font-weight: 700;
+     font-size: 55px;
+     font-weight: bold;
+     padding: 0;
+}
+
+.sixth-section-discription {
+     margin-top: 40px;
+     text-align: center;
+     padding: 0;
+     font-size: 25px;
+}
+
+.team-box-area {
+     margin-top: 80px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+}
+
+.team-box {
+     display: flex;
+     background: #FFFFFF;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+     width: 630px;
+     height: 300px;
+     justify-content: center;
+     align-items: center;
+}
+
+.team-box img {
+     width: 200px;
+     height: 250px;
+     border-radius: 8px;
+}
+
+.team-box-title-area {
+     margin-left: 15px;
+}
+
+/*Footer area tysle*/
+footer {
+     margin-top: 130px;
+     margin-bottom: 30px;
+     text-align: center;
+     width: 1440px;
+     width: 1920px;
+     height: 100px;
+}
+
+.last-siction {
+     height: 100px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+.footer-discription {
+     background: #FFF4E7;
+     padding: 30px 200px;
+     font-weight: 400;
+     font-size: 25px;
+     color: #424242;
 }
